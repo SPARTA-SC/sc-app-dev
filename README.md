@@ -1,6 +1,6 @@
-# ENS Application
+# SC Application
 
-ENS Application
+SC Application
 
 ## Installation
 
@@ -30,7 +30,7 @@ If you get this error:
 ```bash
 $ npm test
 
-> ens-app@0.1.0 test /Users/youruser/drive/projects/ens-app
+> SC-app@0.1.0 test /Users/youruser/drive/projects/SC-app
 > react-scripts test --env=jsdom
 
 2018-05-23 09:17 node[85833] (FSEvents.framework) FSEventStreamStart: register_with_server: ERROR: f2d_register_rpc() => (null) (-22)
@@ -100,7 +100,7 @@ function Component(){
 
 ## End to end Testing
 
-The ENS app has end to end tests with Cypress. To run them you need to start ganache, run the seed script, run the app and then run cypress. This should start chrome and the Cypress GUI. Each time the test run, the script needs to be re-run and the app restarted for it to work.
+The SC app has end to end tests with Cypress. To run them you need to start ganache, run the seed script, run the app and then run cypress. This should start chrome and the Cypress GUI. Each time the test run, the script needs to be re-run and the app restarted for it to work.
 
 ```bash
 ganache-cli
