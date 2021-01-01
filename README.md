@@ -9,7 +9,7 @@ yarn install
 yarn start
 ```
 
-Open your browser at localhost:3000 and open metamask
+Open your browser at https://www.scoin.one/
 
 ## Unit Testing
 
