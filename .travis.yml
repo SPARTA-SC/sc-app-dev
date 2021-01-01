@@ -1,0 +1,19 @@
+sudo: required
+
+dist: trusty
+
+language: node_js
+
+node_js:
+  - "10"
+
+cache: yarn
+
+matrix:
+  allow_failures:
+
+script:
+  - yarn build
+
+notifications:
+  email: false
